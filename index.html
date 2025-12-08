@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uma's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div id="home" class="left">
+        <a href="/">Uma's Hub</a>
+      </div>
+
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a href="mailto:john@example.com">
+          <i class="fa-brands fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- SECTION 1: Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h1>Hi, I'm Uma 👋</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+            totam exercitationem incidunt error. Temporibus voluptatum, rem
+            culpa vero, facilis laboriosam debitis accusantium vel earum cum
+            distinctio! Non beatae possimus similique eligendi a nisi, fuga
+            quod. Eum aut debitis, sed qui perspiciatis eveniet provident iste
+            voluptates. Perspiciatis fugit beatae tempore neque.
+          </p>
+
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+
+            <a href="#contact">
+             <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img src="images/hero-headshot.webp" alt="uma's head" />
+        </div>
+      </section>
+
+      <!-- SECTION 2: Skills  -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quo
+          repellat nisi beatae. Veniam ipsam dolor quaerat possimus accusamus
+          tempora cum? Sequi praesentium ea voluptatibus rem aliquid error
+          reprehenderit non?
+        </p>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="" />
+            <span>Node.js</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="" />
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+          <div class="testimony-group">
+            <img src="images/testimony-headshot.webp" alt="testimonial photo" />
+            <h3>Uma's Hub</h3>
+            <p>Lorem ipsum dolor sit.</p>
+          </div>
+
+          <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit non
+            quibusdam laboriosam sit, deleniti nihil debitis aut, distinctio
+            dolorem magnam architecto adipisci dolor eveniet dolores harum
+            voluptas animi qui. Molestias nam sint doloremque minima. Corporis
+            ex modi quam quod obcaecati numquam, tempora possimus nobis eligendi
+            facilis, debitis in enim accusamus voluptas repellat adipisci
+            voluptatum unde.
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="contact-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+            perspiciatis. Et, possimus accusamus expedita numquam reprehenderit
+            sapiente consequuntur deleniti, voluptates aspernatur vitae
+            laudantium officiis veritatis cupiditate, alias ea iste eius
+            deserunt vel dolorum consequatur non modi. Deleniti earum similique
+            omnis sequi incidunt! Sed mollitia quae porro omnis, adipisci quos
+            temporibus?
+          </p>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Write Your Name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Type In Your Email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section class="footer">
+        <div class="container">
+          <h3><a href="index.html">Uma's Hub</a></h3>
+          <p>copyright &copy; 2020</p>
+          <ul>
+            <li id="home"><a href="#home">Home</a></li>
+            <li id="contact"><a href="#contact">Contact</a></li>
+            <li id="skills"><a href="#skills">Services</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
